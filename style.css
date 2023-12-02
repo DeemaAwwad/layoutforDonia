@@ -1,0 +1,116 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+    background-color: #dddddd;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1400px;
+    background-color: #ffffff;
+    height: auto;
+    margin:40px auto ;
+    padding: 20px;
+   
+}
+
+nav{
+    background-color: #dddddd;
+    width: 100%;
+    padding: 30px 15px;
+    text-align: center;
+    float: left;
+   margin-bottom: 20px;
+}
+
+h1{
+    font-size: 30px;
+    margin: 0;
+}
+header{
+float: left;
+    padding: 100px 15px;
+    background-color: #dddddd;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.clear{
+    clear: both;
+}
+
+.section1{
+    float: left;
+    padding: 50px 10px;
+    background-color: #dddddd;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section1 .content{
+    float: left;
+    width: 100%;
+}
+.section1 .content .card{
+    width: 25%;
+    float: left;
+    margin-top: 30px;
+    padding: 0px 10px;
+}
+.section1 .content .card .box{
+    background-color: gray;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 50px 15px;
+}
+.section2{
+    float: left;
+    padding: 50px 10px;
+    background-color: #dddddd;
+    width: 100%;
+    text-align: center;
+   margin-bottom: 20px;
+}
+
+.section2 .content{
+ float: left;
+ width: 100%;
+ margin-top: 50px;
+}
+
+.section2 .content .left{
+    float: left;
+    width: 50%;
+    padding: 0px 10px;
+}
+.section2 .content .left .card{
+    padding: 200px 15px;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: gray;
+}
+.section2 .content .right{
+    float: left;
+    width: 50%;
+    padding: 0px 10px;
+}
+.section2 .content .right .card{
+    padding: 49px 15px;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: gray;
+    margin-bottom: 20px;
+}
+
+footer{
+    float: left;
+    padding: 50px 10px;
+    background-color: #dddddd;
+    width: 100%;
+    text-align: center;
+   
+}
